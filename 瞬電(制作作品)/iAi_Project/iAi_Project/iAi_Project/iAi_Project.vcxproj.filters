@@ -1,0 +1,1193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\定義">
+      <UniqueIdentifier>{d68b026b-86e8-4362-844b-8ef9cabaea46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\シーン">
+      <UniqueIdentifier>{cb2f9fba-1703-478c-8ae6-a5152355363e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\シーン">
+      <UniqueIdentifier>{b06114a0-0cec-4716-8266-5e7973a605b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\シーン\タイトル">
+      <UniqueIdentifier>{adfe8500-7bb7-4d99-9dbe-cbd82c16a8d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\シーン\タイトル">
+      <UniqueIdentifier>{f1da4fff-aa2f-42eb-80e4-3b085915a7ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\シーン\ゲームメイン">
+      <UniqueIdentifier>{ecb22b5c-801c-4a75-bafc-7b20d5c97047}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\シーン\オプション">
+      <UniqueIdentifier>{6a8cc3cf-c658-4c26-aab2-ed474913ea65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\シーン\ゲームメイン">
+      <UniqueIdentifier>{ed8dd8dc-68c9-4249-82a7-d086a3117400}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\シーン\オプション">
+      <UniqueIdentifier>{c8300271-e009-44e3-bc3f-480f4d15569d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\シーン\ロード">
+      <UniqueIdentifier>{fbd9ab12-9f5a-4def-9e14-9f0816cb01b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\シーン\ロード">
+      <UniqueIdentifier>{c3cc6c53-5b3a-4a77-9b88-eef747797f18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\データリスト">
+      <UniqueIdentifier>{ad090fd3-1886-46cb-af65-961649d3f3d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\データリスト">
+      <UniqueIdentifier>{3577a1fc-f0df-49a9-a95b-1b0d0cb1e8d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\データリスト\オプション">
+      <UniqueIdentifier>{d4d69545-b6e5-4a3d-9685-e811df726dae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\データリスト\オプション">
+      <UniqueIdentifier>{4d4a47ca-0fcd-4df1-8533-2a63e8d0ffba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\データリスト\入力">
+      <UniqueIdentifier>{0e23208a-c3bd-45f5-a7c2-2ee197443d53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\データリスト\入力">
+      <UniqueIdentifier>{78ccf8b4-b98a-4dd6-a0eb-f984db635a66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト">
+      <UniqueIdentifier>{6fe53146-6920-4fc7-a229-ce2d592af7e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト\アクタ">
+      <UniqueIdentifier>{16f2baa2-8626-494a-b021-da59c93a34bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト">
+      <UniqueIdentifier>{e5d9f952-6418-4e8f-a2c4-62d924761be3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト\アクタ">
+      <UniqueIdentifier>{b5972f54-fa2f-4958-a776-5cfc8ea0af8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト\アクタ\キャラクター">
+      <UniqueIdentifier>{6593fb31-238a-4663-96bc-cf6dc271493e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト\アクタ\キャラクター\プレイヤー">
+      <UniqueIdentifier>{1a1f4357-2eb0-44dc-9653-ed8b1522752b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト\アクタ\キャラクター">
+      <UniqueIdentifier>{20bd4dde-d62b-47fa-be08-365edb13abba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト\アクタ\キャラクター\プレイヤー">
+      <UniqueIdentifier>{9d57a6a5-56c9-4aa1-864f-6d7534cf0dd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\データリスト\オブジェクト管理">
+      <UniqueIdentifier>{1524b864-9565-4fb4-8626-6289407583fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\データリスト\オブジェクト管理">
+      <UniqueIdentifier>{1d13ccce-95f6-4828-a8e9-6a160d4a7af9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\定義">
+      <UniqueIdentifier>{fee04d11-66e3-4a33-bc5d-8b4d78c2ca63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\データリスト\プレイヤー状態">
+      <UniqueIdentifier>{42e6553f-5551-4785-895c-40eea843a2cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\データリスト\プレイヤー状態">
+      <UniqueIdentifier>{a903c500-3e8c-4abc-ae19-104434afe45e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\シーン\ゲームメイン\ユーザーインターフェイス">
+      <UniqueIdentifier>{128fe4f9-cb29-485c-b450-9fe95af19a7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\シーン\ゲームメイン\ユーザーインターフェイス">
+      <UniqueIdentifier>{d630c187-3c32-4dde-842e-c0257c1a2fe8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\データリスト\3Dモデル管理">
+      <UniqueIdentifier>{08353976-66fd-4099-bab1-ba450c99a977}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\データリスト\3Dモデル管理">
+      <UniqueIdentifier>{5069a771-77c7-48e3-b043-7f6192ef61d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト\プラットフォーム">
+      <UniqueIdentifier>{2b0041bd-44b6-4a97-a12f-ae97bc7383eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト\プラットフォーム">
+      <UniqueIdentifier>{15fcfb79-088b-40c4-b3fc-a30e862459a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト\アクタ\キャラクター\エネミー">
+      <UniqueIdentifier>{5b58202e-702b-4426-87ab-1a36657dae43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト\アクタ\キャラクター\エネミー">
+      <UniqueIdentifier>{51e3ff2f-de72-4967-8648-9250810d1932}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト\エフェクト">
+      <UniqueIdentifier>{050e7cb1-0e08-4da8-8d67-b1dc9cdcb5e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト\エフェクト">
+      <UniqueIdentifier>{1e026061-22cf-4657-8ff1-93c15d1ef6ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\シーン\ゲームメイン\ステージ">
+      <UniqueIdentifier>{215d0676-00e3-4beb-9c2c-3e2126545eb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\シーン\ゲームメイン\ステージ">
+      <UniqueIdentifier>{69cb7c40-f1d9-433d-9575-c586cc39c6b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\シーン\ゲームメイン\エディット">
+      <UniqueIdentifier>{5d605048-daac-4f5f-be12-d731fd63f230}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\シーン\ゲームメイン\エディット">
+      <UniqueIdentifier>{0dbfbb9a-6d4b-4e85-b17d-eae4a3346160}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト\アクタ\バレット">
+      <UniqueIdentifier>{10bf6242-2663-4da7-9e4c-eba1e4648fd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト\アクタ\バレット">
+      <UniqueIdentifier>{e8a7f619-3dc4-4823-913f-dfa6988ff221}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト\プラットフォーム\ギミック">
+      <UniqueIdentifier>{d62c1475-32e3-45da-9431-254952e8e21f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト\プラットフォーム\ギミック">
+      <UniqueIdentifier>{528618ed-5f7c-45fc-8d41-e74965629227}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト\アクタ\キャラクター\エネミー\ゴールオブジェクト">
+      <UniqueIdentifier>{a192f62e-0a72-46e3-b517-2767e885f0f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト\アクタ\キャラクター\エネミー\ゴールオブジェクト">
+      <UniqueIdentifier>{486ac4b5-280b-44c6-8504-6a5071cbe00f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\データリスト\エフェクトリソース管理">
+      <UniqueIdentifier>{897dc08e-30cd-49ab-a4f1-d042b3845100}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\データリスト\エフェクトリソース管理">
+      <UniqueIdentifier>{20677129-197b-4cf7-9207-dbaae9117c3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\データリスト\サウンド管理">
+      <UniqueIdentifier>{6c3a869f-8491-4469-b35f-9e894ccd5b33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\データリスト\サウンド管理">
+      <UniqueIdentifier>{8b7a6cd1-c3fa-4f54-8126-67a1029c3937}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト\アクタ\バレット\エネミー">
+      <UniqueIdentifier>{d4065827-d666-4598-9b8c-e58a8993dfac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト\アクタ\バレット\プレイヤー">
+      <UniqueIdentifier>{6c99a494-a4a4-454b-920f-7ffe2a0a433a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト\アクタ\キャラクター\エネミー\自爆">
+      <UniqueIdentifier>{a9bbb1d5-b14e-4865-8d4d-c09eecfc8d3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト\アクタ\キャラクター\エネミー\逃走">
+      <UniqueIdentifier>{7c28a010-ed37-4b42-9306-1916cf852706}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト\アクタ\キャラクター\エネミー\ミサイル">
+      <UniqueIdentifier>{45b9068a-4edc-43a6-a37c-8cf78ad20cac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト\アクタ\キャラクター\エネミー\ノーマル">
+      <UniqueIdentifier>{bfc42c4b-128d-4874-a755-3376935990e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト\アクタ\キャラクター\エネミー\自爆">
+      <UniqueIdentifier>{9bda7d4f-9913-460b-8385-9f40fc276f3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト\アクタ\キャラクター\エネミー\ミサイル">
+      <UniqueIdentifier>{80cc1db6-3bc5-4645-8fef-1d3e5b00143e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト\アクタ\キャラクター\エネミー\逃走">
+      <UniqueIdentifier>{52989d01-205a-49cf-b8be-b33828c680bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト\アクタ\キャラクター\エネミー\ノーマル">
+      <UniqueIdentifier>{1236f9ae-013d-4a09-b2ab-9618026844d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト\アクタ\キャラクター\エネミー\ビーム">
+      <UniqueIdentifier>{e3f0d775-4fe2-4b43-8b4e-af33a51f65cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト\アクタ\キャラクター\エネミー\ビーム">
+      <UniqueIdentifier>{f17f8a74-1275-4627-93d5-b50b8bf9221d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト\アクタ\バレット\エネミー">
+      <UniqueIdentifier>{6bfa5771-b023-4bbd-8b5a-fba2d22be604}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト\アクタ\バレット\プレイヤー">
+      <UniqueIdentifier>{f2b2c71e-9df6-4443-9961-b41dfc8d8e73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト\スカイスフィア">
+      <UniqueIdentifier>{bf796828-cd10-4854-be15-88307cadbea5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト\スカイスフィア">
+      <UniqueIdentifier>{89c85d66-4ab1-4035-aa7d-e7728dda34ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト\アクタ\アイテム">
+      <UniqueIdentifier>{6fe6e217-72fc-4da0-8e4f-dbf277457c3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト\アクタ\アイテム\実体なし">
+      <UniqueIdentifier>{4e0c8214-2bfc-4610-9b1f-8354a882d40d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト\アクタ\アイテム">
+      <UniqueIdentifier>{5f2f6ee4-4e2a-4842-8826-a24e2446d167}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト\アクタ\アイテム\実体なし">
+      <UniqueIdentifier>{ab7a8e3c-8a06-43b3-b7b5-86a875c0a74a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\データリスト\ゲームリソース管理">
+      <UniqueIdentifier>{3ac54fa0-46b6-4bb2-95ba-3664b22e7da0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\データリスト\ゲームリソース管理">
+      <UniqueIdentifier>{ce588e4f-4dd3-4727-ae0f-b5f71e740f0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\データリスト\画像管理">
+      <UniqueIdentifier>{7945200f-3a26-4ba5-8de4-7e0f28b8a76b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\データリスト\画像管理">
+      <UniqueIdentifier>{39ca0152-b569-4bd3-a909-ce5e7af32e41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト\アクタ\アイテム\実体あり">
+      <UniqueIdentifier>{d5be6361-8cd8-4dfe-ba3d-552985965112}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト\アクタ\アイテム\実体あり">
+      <UniqueIdentifier>{ed3e8fe2-29d6-4896-bdf4-677855c09859}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト\プラットフォーム\ギミック\消える床">
+      <UniqueIdentifier>{bbe01ac4-d7ee-41d6-9650-41f9bee35d5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト\プラットフォーム\ギミック\消える床">
+      <UniqueIdentifier>{294cdc1f-a067-4bb5-8688-f832bed72c59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\シーン\ゲームメイン\ユーザーインターフェイス\ブラッド%28ゲーム内通貨%29">
+      <UniqueIdentifier>{4fe83b28-f667-43e6-a138-f48eff84aa00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\シーン\ゲームメイン\ユーザーインターフェイス\コンボ">
+      <UniqueIdentifier>{973771e9-b526-48b3-9c4b-a8a5e98fc248}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\シーン\ゲームメイン\ユーザーインターフェイス\クロスヘア">
+      <UniqueIdentifier>{d8a86c94-6601-44c0-b41b-ef1c8107669f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\シーン\ゲームメイン\ユーザーインターフェイス\デバッグ">
+      <UniqueIdentifier>{04d694d3-a3ec-47e4-8950-399a0554acbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\シーン\ゲームメイン\ユーザーインターフェイス\エディット%28描写%29">
+      <UniqueIdentifier>{51cb7bcf-7f17-4586-8c54-f03e028d6969}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\シーン\ゲームメイン\ユーザーインターフェイス\HP">
+      <UniqueIdentifier>{b36c3257-4d22-46e5-888f-888f9725c97c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\シーン\ゲームメイン\ユーザーインターフェイス\クナイ関連">
+      <UniqueIdentifier>{9c0d7876-8139-48d9-ba8b-e3aa825d1bab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\シーン\ゲームメイン\ユーザーインターフェイス\ブラッド%28ゲーム内通貨%29">
+      <UniqueIdentifier>{53e8fd2a-7fd5-48fd-9d5d-bc91d7ee0e32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\シーン\ゲームメイン\ユーザーインターフェイス\コンボ">
+      <UniqueIdentifier>{e4de2c56-2a2f-4ce1-b9ad-a5e65ad13cdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\シーン\ゲームメイン\ユーザーインターフェイス\クロスヘア">
+      <UniqueIdentifier>{9726380a-80ad-41b2-b768-6064a04307e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\シーン\ゲームメイン\ユーザーインターフェイス\デバッグ">
+      <UniqueIdentifier>{84e74936-46f0-4a8d-8063-50bfd8da803f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\シーン\ゲームメイン\ユーザーインターフェイス\エディット%28描写%29">
+      <UniqueIdentifier>{578d252d-fdef-430f-9e9a-33af2e05cebc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\シーン\ゲームメイン\ユーザーインターフェイス\HP">
+      <UniqueIdentifier>{3175e4cd-005b-4f84-b48f-b6474d1c3313}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\シーン\ゲームメイン\ユーザーインターフェイス\クナイ関連">
+      <UniqueIdentifier>{e81cb358-8bfc-42b9-8161-ff17c2759099}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\シーン\ゲームメイン\リザルト">
+      <UniqueIdentifier>{7216cb09-6638-44bb-aa4d-ec65f22a5724}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\シーン\ゲームメイン\リザルト">
+      <UniqueIdentifier>{bc1e711b-129c-4ca6-8ad2-93d852e448a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\シーン\ゲームメイン\ゲームオーバー">
+      <UniqueIdentifier>{ed1c286b-bfea-4251-a693-1c048369046a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\シーン\ゲームメイン\ゲームオーバー">
+      <UniqueIdentifier>{62238b3f-25a9-4b99-93bd-1a13d2685416}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\画面エフェクト">
+      <UniqueIdentifier>{2980588c-d43c-4ab2-b3d3-789d3af4dd0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\画面エフェクト">
+      <UniqueIdentifier>{26439899-672d-4708-ab20-cd3ea9fb1e1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\データリスト\ステージ状態管理">
+      <UniqueIdentifier>{171743c4-b1ef-4cb7-b907-538957d70d69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\データリスト\ステージ状態管理">
+      <UniqueIdentifier>{b77f5419-83c9-4a67-8ae6-dd9f2fdeb769}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\シーン\セットアップ">
+      <UniqueIdentifier>{aeb9a0b4-90da-4f83-bd89-1a359c5e4829}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\シーン\セットアップ">
+      <UniqueIdentifier>{47799b86-4f70-4f07-9071-fab387dd79a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト\プラットフォーム\ギミック\画面">
+      <UniqueIdentifier>{b6308c93-9eb3-4cf1-b4a7-4414c92a1c1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト\プラットフォーム\ギミック\画面">
+      <UniqueIdentifier>{a7730c46-2d88-4447-9747-c0949f977243}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\シーン\ゲームメイン\ステージクリア">
+      <UniqueIdentifier>{4e841ad2-d9ce-4b05-9eb9-e852cc8fc3b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\シーン\ゲームメイン\ステージクリア">
+      <UniqueIdentifier>{cbf291f0-2fd9-43ae-8c83-855eb6727210}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト\プラットフォーム\霧%28ビルボード%29">
+      <UniqueIdentifier>{d81edc86-b2e0-4bd0-994d-66011c56f1d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト\プラットフォーム\ギミック\落下判定">
+      <UniqueIdentifier>{10f9c78f-2e66-4d5f-baea-0233358a4bfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト\プラットフォーム\ギミック\落下判定">
+      <UniqueIdentifier>{d37e63ac-34cb-4e28-bbd9-014b6fdb786d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\シーン\ゲームメイン\一時停止">
+      <UniqueIdentifier>{b503a21e-52b3-49d5-92a9-3b7b148182e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\シーン\ゲームメイン\一時停止">
+      <UniqueIdentifier>{e8915cf2-bd09-4792-9efe-c12e3adb0000}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト\プラットフォーム\ギミック\強制ジャンプ">
+      <UniqueIdentifier>{09e3c1e0-6545-4500-b429-197170b734d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト\プラットフォーム\ギミック\強制ジャンプ">
+      <UniqueIdentifier>{c5ba7085-d87c-4d73-a988-5442d5f02cf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト\プラットフォーム\霧%28ビルボード%29">
+      <UniqueIdentifier>{aa3fea37-41c8-49bb-841a-05a8c5949c37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト\プラットフォーム\ギミック\移動床">
+      <UniqueIdentifier>{30ef3e7f-623f-433a-ac41-ba0f61d4cba2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト\プラットフォーム\ギミック\移動床">
+      <UniqueIdentifier>{39e3119c-c1dd-45a2-b5d7-aeff3299f007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\シーン\ゲームメイン\ユーザーインターフェイス\デバッグ\ステージジャンプ">
+      <UniqueIdentifier>{898c30b3-243d-45d2-af40-48d08a8ef68e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\シーン\ゲームメイン\ユーザーインターフェイス\デバッグ\ステージジャンプ">
+      <UniqueIdentifier>{bca257ca-4d2d-4d92-9261-d7c60aa2b865}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\画面エフェクト\被ダメージ">
+      <UniqueIdentifier>{59185a37-feef-4bf4-9b1b-603f604856aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\画面エフェクト\被ダメージ">
+      <UniqueIdentifier>{5437bfbc-e56d-46c1-b7ff-25a9c756d781}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\画面エフェクト\スローモーション">
+      <UniqueIdentifier>{6658fefd-80b2-453c-a671-dc6ce4bbe4cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\画面エフェクト\スローモーション">
+      <UniqueIdentifier>{ddc5d0e3-8431-430f-b701-8aa9e023f647}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト\プラットフォーム\ギミック\スポーンポイント">
+      <UniqueIdentifier>{dd089bc2-ef38-4077-8754-988020f17f9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト\プラットフォーム\ギミック\スポーンポイント\ノーマル">
+      <UniqueIdentifier>{c3f6cbb1-bda3-459c-8203-539c22de5b3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト\プラットフォーム\ギミック\スポーンポイント\ビーム">
+      <UniqueIdentifier>{2ab8d009-fd72-4de0-894c-7d1c16ed7274}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト\プラットフォーム\ギミック\スポーンポイント\ミサイル">
+      <UniqueIdentifier>{9e025510-dad2-485a-b7e0-cd30758bb58b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト\プラットフォーム\ギミック\スポーンポイント\自爆">
+      <UniqueIdentifier>{e339ee33-791d-4698-b928-60ac05f33ce4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト\プラットフォーム\ギミック\スポーンポイント\逃走">
+      <UniqueIdentifier>{d32207cd-a209-43f0-a30d-4c177a5c2fbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト\プラットフォーム\ギミック\スポーンポイント">
+      <UniqueIdentifier>{4f786aaa-5278-467e-a275-f764dda73eac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト\プラットフォーム\ギミック\スポーンポイント\ノーマル">
+      <UniqueIdentifier>{07d7ebf2-2eb1-46e1-847b-ffa5466f2dad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト\プラットフォーム\ギミック\スポーンポイント\逃走">
+      <UniqueIdentifier>{d0db947b-2544-4a4b-bf10-0074688025c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト\プラットフォーム\ギミック\スポーンポイント\自爆">
+      <UniqueIdentifier>{8c616f3a-b06c-4815-b71a-5440d4430103}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト\プラットフォーム\ギミック\スポーンポイント\ミサイル">
+      <UniqueIdentifier>{8f323121-758e-44db-a5f3-67abb7eab97b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト\プラットフォーム\ギミック\スポーンポイント\ビーム">
+      <UniqueIdentifier>{d8ee9319-9b74-419b-9276-4d468d77d65d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト\プラットフォーム\ギミック\スポーンポイント\ブラッド%28アイテム%29">
+      <UniqueIdentifier>{c256e4d4-4a21-4cc0-9dd9-ac67132f5ce5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト\プラットフォーム\ギミック\スポーンポイント\ブラッド%28アイテム%29">
+      <UniqueIdentifier>{b5eeeca1-685b-4850-a6ee-539eefb5965d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト\プラットフォーム\ギミック\中間ポイント">
+      <UniqueIdentifier>{a5c08481-2e76-4121-a198-0aa2c857ca55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト\プラットフォーム\ギミック\中間ポイント">
+      <UniqueIdentifier>{07f94999-0f9e-44f2-817a-09742acdf92b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\シーン\ゲームメイン\ユーザーインターフェイス\デバッグ\ステータス調整">
+      <UniqueIdentifier>{5fd83e0d-8325-4120-8f28-8e7e94bcb041}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\シーン\ゲームメイン\ユーザーインターフェイス\デバッグ\ステータス調整">
+      <UniqueIdentifier>{8dc038d2-eb04-49f2-9494-82ff2e33fe96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\画面エフェクト\集中線">
+      <UniqueIdentifier>{894a6bc5-28c1-4fd1-9f11-3d52375b13b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\画面エフェクト\集中線">
+      <UniqueIdentifier>{940980e8-073c-478f-a3ca-47d7ec9235fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト\アクタ\キャラクター\エネミー\固定">
+      <UniqueIdentifier>{7f3574b5-3bc7-44c5-b532-04eb975664fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト\アクタ\キャラクター\エネミー\固定">
+      <UniqueIdentifier>{76578b09-b5b3-4bb8-aed8-9d075286c209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\シーン\会話シーン">
+      <UniqueIdentifier>{61ba4c3d-fef9-43fd-a1d0-aafea7fd8bd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\シーン\会話パート">
+      <UniqueIdentifier>{ef1043b4-a9a7-46f2-8791-a1b610279c50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト\プラットフォーム\ギミック\スポーンポイント\消える床%28ギミック%29">
+      <UniqueIdentifier>{0b87cbd2-534b-48a0-b4e6-0bb7bd3537f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト\プラットフォーム\ギミック\スポーンポイント\消える床">
+      <UniqueIdentifier>{d1934403-4996-4a81-bf3c-40fb7b559c3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト\プラットフォーム\ギミック\タイトルプレイヤー">
+      <UniqueIdentifier>{d880e9fb-b69f-4f77-9e4b-977670dab5c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト\プラットフォーム\ギミック\タイトルプレイヤー">
+      <UniqueIdentifier>{00a898e5-8d27-41ae-9ff4-1a674976d164}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト\プラットフォーム\ギミック\スポーンポイント\クナイ%28アイテム%29">
+      <UniqueIdentifier>{2643b38e-f091-4bc3-b48e-a0d899ec057f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト\プラットフォーム\ギミック\スポーンポイント\クナイ%28アイテム%29">
+      <UniqueIdentifier>{6f01a865-419e-4d82-aa0d-9cef5e0367a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\シーン\ゲームメイン\ユーザーインターフェイス\時間表示">
+      <UniqueIdentifier>{81eaab28-7c92-4769-8686-beb5bfe14a1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\シーン\ゲームメイン\ユーザーインターフェイス\時間">
+      <UniqueIdentifier>{514a6072-5879-4980-98dd-273b3060ae51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\シーン\ゲームメイン\ユーザーインターフェイス\操作説明">
+      <UniqueIdentifier>{fdbafb70-a10d-4d25-8460-e65dc9540676}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\シーン\ゲームメイン\ユーザーインターフェイス\操作説明">
+      <UniqueIdentifier>{74de9b00-ed4d-4915-8e4b-ca17ea4d8cdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\シーン\エンドクレジット">
+      <UniqueIdentifier>{d54649cb-5da1-4cdb-a899-2b5914f16f9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\シーン\エンドクレジット">
+      <UniqueIdentifier>{0df2d989-bf01-44a6-a356-68ee56933799}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\シーン\ゲームメイン\ユーザーインターフェイス\ジャンプ回数">
+      <UniqueIdentifier>{1bbbb49a-fc76-4d7d-b185-e3cd265b8178}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\シーン\ゲームメイン\ユーザーインターフェイス\ジャンプ回数">
+      <UniqueIdentifier>{cb1b7c10-0725-4c05-b7e9-eceb0c0612a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト\プラットフォーム\ギミック\チュートリアル描写地点">
+      <UniqueIdentifier>{c2533383-aa8b-42c6-a3a4-72c2fd1cbe82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト\プラットフォーム\ギミック\チュートリアル描写地点">
+      <UniqueIdentifier>{85e980ea-785f-48a2-b073-96baecc9f9e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\シーン\ゲームメイン\ユーザーインターフェイス\チュートリアル">
+      <UniqueIdentifier>{09cf3784-e53a-4d93-8b98-97f88bf3fd51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\シーン\ゲームメイン\ユーザーインターフェイス\チュートリアル">
+      <UniqueIdentifier>{8ff9a977-076a-42ad-a7ec-37e1c8079104}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\シーン\ロゴ">
+      <UniqueIdentifier>{cfcb5ad3-89bb-4576-b056-e183c6b99398}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\シーン\ロゴ">
+      <UniqueIdentifier>{34751434-2f72-45f3-be07-64a149fbb384}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\AppFunctionDefine.cpp">
+      <Filter>ソース ファイル\定義</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SceneLoad.cpp">
+      <Filter>ソース ファイル\シーン\ロード</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SceneOption.cpp">
+      <Filter>ソース ファイル\シーン\オプション</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SceneGame.cpp">
+      <Filter>ソース ファイル\シーン\ゲームメイン</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SceneTitle.cpp">
+      <Filter>ソース ファイル\シーン\タイトル</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CharacterPlayer.cpp">
+      <Filter>ソース ファイル\オブジェクト\アクタ\キャラクター\プレイヤー</Filter>
+    </ClCompile>
+    <ClCompile Include="source\DataList_Object.cpp">
+      <Filter>ソース ファイル\データリスト\オブジェクト管理</Filter>
+    </ClCompile>
+    <ClCompile Include="source\VariableDefine.cpp">
+      <Filter>ソース ファイル\定義</Filter>
+    </ClCompile>
+    <ClCompile Include="source\DataList_Input.cpp">
+      <Filter>ソース ファイル\データリスト\入力</Filter>
+    </ClCompile>
+    <ClCompile Include="source\DataList_PlayerStatus.cpp">
+      <Filter>ソース ファイル\データリスト\プレイヤー状態</Filter>
+    </ClCompile>
+    <ClCompile Include="source\DataList_Model.cpp">
+      <Filter>ソース ファイル\データリスト\3Dモデル管理</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SceneStage.cpp">
+      <Filter>ソース ファイル\シーン\ゲームメイン\ステージ</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SceneStage_MapLoad.cpp">
+      <Filter>ソース ファイル\シーン\ゲームメイン\ステージ</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SceneEdit.cpp">
+      <Filter>ソース ファイル\シーン\ゲームメイン\エディット</Filter>
+    </ClCompile>
+    <ClCompile Include="source\DataList_StageStatus.cpp">
+      <Filter>ソース ファイル\データリスト\ステージ状態管理</Filter>
+    </ClCompile>
+    <ClCompile Include="source\EffectManualDelete.cpp">
+      <Filter>ソース ファイル\オブジェクト\エフェクト</Filter>
+    </ClCompile>
+    <ClCompile Include="source\EffectSelfDelete.cpp">
+      <Filter>ソース ファイル\オブジェクト\エフェクト</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Enemy_Basic.cpp">
+      <Filter>ソース ファイル\オブジェクト\アクタ\キャラクター\エネミー</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Enemy_GoalObject.cpp">
+      <Filter>ソース ファイル\オブジェクト\アクタ\キャラクター\エネミー\ゴールオブジェクト</Filter>
+    </ClCompile>
+    <ClCompile Include="source\DataList_Effect.cpp">
+      <Filter>ソース ファイル\データリスト\エフェクトリソース管理</Filter>
+    </ClCompile>
+    <ClCompile Include="source\DataList_Sound.cpp">
+      <Filter>ソース ファイル\データリスト\サウンド管理</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BulletPlayerMeleeStrong.cpp">
+      <Filter>ソース ファイル\オブジェクト\アクタ\バレット\プレイヤー</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BulletPlayerMeleeWeak.cpp">
+      <Filter>ソース ファイル\オブジェクト\アクタ\バレット\プレイヤー</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BulletEnemyRangeMissile.cpp">
+      <Filter>ソース ファイル\オブジェクト\アクタ\バレット\エネミー</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BulletEnemyRangeNormal.cpp">
+      <Filter>ソース ファイル\オブジェクト\アクタ\バレット\エネミー</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Enemy_Missile.cpp">
+      <Filter>ソース ファイル\オブジェクト\アクタ\キャラクター\エネミー\ミサイル</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Enemy_Normal.cpp">
+      <Filter>ソース ファイル\オブジェクト\アクタ\キャラクター\エネミー\ノーマル</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Enemy_Escape.cpp">
+      <Filter>ソース ファイル\オブジェクト\アクタ\キャラクター\エネミー\逃走</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SceneStage_Camera.cpp">
+      <Filter>ソース ファイル\シーン\ゲームメイン\ステージ</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Enemy_Explosion.cpp">
+      <Filter>ソース ファイル\オブジェクト\アクタ\キャラクター\エネミー\自爆</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SceneStage_Draw.cpp">
+      <Filter>ソース ファイル\シーン\ゲームメイン\ステージ</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CharacterPlayerAttack.cpp">
+      <Filter>ソース ファイル\オブジェクト\アクタ\キャラクター\プレイヤー</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CharacterPlayerDraw.cpp">
+      <Filter>ソース ファイル\オブジェクト\アクタ\キャラクター\プレイヤー</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CharacterPlayerMove.cpp">
+      <Filter>ソース ファイル\オブジェクト\アクタ\キャラクター\プレイヤー</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Enemy_Beam.cpp">
+      <Filter>ソース ファイル\オブジェクト\アクタ\キャラクター\エネミー\ビーム</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BulletEnemyRangeBeam.cpp">
+      <Filter>ソース ファイル\オブジェクト\アクタ\バレット\エネミー</Filter>
+    </ClCompile>
+    <ClCompile Include="source\EffectManualDelete_PlayerFollow.cpp">
+      <Filter>ソース ファイル\オブジェクト\エフェクト</Filter>
+    </ClCompile>
+    <ClCompile Include="source\EffectSelfDelete_PlayerFollow.cpp">
+      <Filter>ソース ファイル\オブジェクト\エフェクト</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SkySqhereBasic.cpp">
+      <Filter>ソース ファイル\オブジェクト\スカイスフィア</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CharacterPlayerMotion.cpp">
+      <Filter>ソース ファイル\オブジェクト\アクタ\キャラクター\プレイヤー</Filter>
+    </ClCompile>
+    <ClCompile Include="source\EffectItem_Blood.cpp">
+      <Filter>ソース ファイル\オブジェクト\アクタ\アイテム\実体なし</Filter>
+    </ClCompile>
+    <ClCompile Include="source\DataList_GameResource.cpp">
+      <Filter>ソース ファイル\データリスト\ゲームリソース管理</Filter>
+    </ClCompile>
+    <ClCompile Include="source\DataList_Image.cpp">
+      <Filter>ソース ファイル\データリスト\画像管理</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PickUpItem_ForcedJump.cpp">
+      <Filter>ソース ファイル\オブジェクト\アクタ\アイテム\実体あり</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GimmickDisappear.cpp">
+      <Filter>ソース ファイル\オブジェクト\プラットフォーム\ギミック\消える床</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gimmick_ForcedJump_Spawn.cpp">
+      <Filter>ソース ファイル\オブジェクト\プラットフォーム\ギミック\強制ジャンプ</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SceneUi_Blood.cpp">
+      <Filter>ソース ファイル\シーン\ゲームメイン\ユーザーインターフェイス\ブラッド%28ゲーム内通貨%29</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SceneUi_Combo.cpp">
+      <Filter>ソース ファイル\シーン\ゲームメイン\ユーザーインターフェイス\コンボ</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SceneUi_Crosshairs.cpp">
+      <Filter>ソース ファイル\シーン\ゲームメイン\ユーザーインターフェイス\クロスヘア</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SceneUi_Debug.cpp">
+      <Filter>ソース ファイル\シーン\ゲームメイン\ユーザーインターフェイス\デバッグ</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SceneUi_Edit.cpp">
+      <Filter>ソース ファイル\シーン\ゲームメイン\ユーザーインターフェイス\エディット%28描写%29</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SceneUi_Hp.cpp">
+      <Filter>ソース ファイル\シーン\ゲームメイン\ユーザーインターフェイス\HP</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SceneUi_Kunai.cpp">
+      <Filter>ソース ファイル\シーン\ゲームメイン\ユーザーインターフェイス\クナイ関連</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SceneEdit_Draw.cpp">
+      <Filter>ソース ファイル\シーン\ゲームメイン\エディット</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SceneResult.cpp">
+      <Filter>ソース ファイル\シーン\ゲームメイン\リザルト</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SceneGameOver.cpp">
+      <Filter>ソース ファイル\シーン\ゲームメイン\ゲームオーバー</Filter>
+    </ClCompile>
+    <ClCompile Include="source\EffectManualDelete_PlayerFollow_Frame.cpp">
+      <Filter>ソース ファイル\オブジェクト\エフェクト</Filter>
+    </ClCompile>
+    <ClCompile Include="source\EffectSelfDelete_PlayerFollow_Frame.cpp">
+      <Filter>ソース ファイル\オブジェクト\エフェクト</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ScreenEffect_Damage.cpp">
+      <Filter>ソース ファイル\画面エフェクト\被ダメージ</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SceneAddGameSetup.cpp">
+      <Filter>ソース ファイル\シーン\セットアップ</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Screen.cpp">
+      <Filter>ソース ファイル\オブジェクト\プラットフォーム\ギミック\画面</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SceneStageClear.cpp">
+      <Filter>ソース ファイル\シーン\ゲームメイン\ステージクリア</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gimmick_FallJudgment.cpp">
+      <Filter>ソース ファイル\オブジェクト\プラットフォーム\ギミック\落下判定</Filter>
+    </ClCompile>
+    <ClCompile Include="source\DataList_Option.cpp">
+      <Filter>ソース ファイル\データリスト\オプション</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ScenePause.cpp">
+      <Filter>ソース ファイル\シーン\ゲームメイン\一時停止</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SceneAddTitleSetup.cpp">
+      <Filter>ソース ファイル\シーン\セットアップ</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LargeScreen.cpp">
+      <Filter>ソース ファイル\オブジェクト\プラットフォーム\ギミック\画面</Filter>
+    </ClCompile>
+    <ClCompile Include="source\EnemySpawnPoint_Normal.cpp">
+      <Filter>ソース ファイル\オブジェクト\プラットフォーム\ギミック\スポーンポイント\ノーマル</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SpawnPoint_Base.cpp">
+      <Filter>ソース ファイル\オブジェクト\プラットフォーム\ギミック\スポーンポイント</Filter>
+    </ClCompile>
+    <ClCompile Include="source\FallFog.cpp">
+      <Filter>ソース ファイル\オブジェクト\プラットフォーム\霧%28ビルボード%29</Filter>
+    </ClCompile>
+    <ClCompile Include="source\EnemySpawnPoint_Beam.cpp">
+      <Filter>ソース ファイル\オブジェクト\プラットフォーム\ギミック\スポーンポイント\ビーム</Filter>
+    </ClCompile>
+    <ClCompile Include="source\EnemySpawnPoint_Missile.cpp">
+      <Filter>ソース ファイル\オブジェクト\プラットフォーム\ギミック\スポーンポイント\ミサイル</Filter>
+    </ClCompile>
+    <ClCompile Include="source\EnemySpawnPoint_Explosion.cpp">
+      <Filter>ソース ファイル\オブジェクト\プラットフォーム\ギミック\スポーンポイント\自爆</Filter>
+    </ClCompile>
+    <ClCompile Include="source\EnemySpawnPoint_Escape.cpp">
+      <Filter>ソース ファイル\オブジェクト\プラットフォーム\ギミック\スポーンポイント\逃走</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gimmick_MoveFloor.cpp">
+      <Filter>ソース ファイル\オブジェクト\プラットフォーム\ギミック\移動床</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SceneUi_Debug_StageJump.cpp">
+      <Filter>ソース ファイル\シーン\ゲームメイン\ユーザーインターフェイス\デバッグ\ステージジャンプ</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ScreenEffect_SlowMotion.cpp">
+      <Filter>ソース ファイル\画面エフェクト\スローモーション</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Enemy_Missile_Air.cpp">
+      <Filter>ソース ファイル\オブジェクト\アクタ\キャラクター\エネミー\ミサイル</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Enemy_Normal_Air.cpp">
+      <Filter>ソース ファイル\オブジェクト\アクタ\キャラクター\エネミー\ノーマル</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BulletPlayerKunai.cpp">
+      <Filter>ソース ファイル\オブジェクト\アクタ\バレット\プレイヤー</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BulletPlayerKunaiExplosion.cpp">
+      <Filter>ソース ファイル\オブジェクト\アクタ\バレット\プレイヤー</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BulletPlayerKunaiWarp.cpp">
+      <Filter>ソース ファイル\オブジェクト\アクタ\バレット\プレイヤー</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PickUpItem_Blood.cpp">
+      <Filter>ソース ファイル\オブジェクト\アクタ\アイテム\実体あり</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SpawnPoint_Blood_PickupItem.cpp">
+      <Filter>ソース ファイル\オブジェクト\プラットフォーム\ギミック\スポーンポイント\ブラッド%28アイテム%29</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gimmick_CheckPoint.cpp">
+      <Filter>ソース ファイル\オブジェクト\プラットフォーム\ギミック\中間ポイント</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SceneUi_Debug_StatusSetup.cpp">
+      <Filter>ソース ファイル\シーン\ゲームメイン\ユーザーインターフェイス\デバッグ\ステータス調整</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ScreenEffect_Base.cpp">
+      <Filter>ソース ファイル\画面エフェクト</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ScreenEffect_ConcentrationLine.cpp">
+      <Filter>ソース ファイル\画面エフェクト\集中線</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Enemy_Fixed.cpp">
+      <Filter>ソース ファイル\オブジェクト\アクタ\キャラクター\エネミー\固定</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Enemy_Fixed_Turret.cpp">
+      <Filter>ソース ファイル\オブジェクト\アクタ\キャラクター\エネミー\固定</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SceneConversation.cpp">
+      <Filter>ソース ファイル\シーン\会話パート</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GimmickDisappearSpawnPoint.cpp">
+      <Filter>ソース ファイル\オブジェクト\プラットフォーム\ギミック\スポーンポイント\消える床%28ギミック%29</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Scene_Title_Player.cpp">
+      <Filter>ソース ファイル\オブジェクト\プラットフォーム\ギミック\タイトルプレイヤー</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PickUpItem_Kunai.cpp">
+      <Filter>ソース ファイル\オブジェクト\アクタ\アイテム\実体あり</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SpawnPoint_Kunai_PickupItem.cpp">
+      <Filter>ソース ファイル\オブジェクト\プラットフォーム\ギミック\スポーンポイント\クナイ%28アイテム%29</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SceneUi_Time.cpp">
+      <Filter>ソース ファイル\シーン\ゲームメイン\ユーザーインターフェイス\時間表示</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SceneUi_OperationInstructions.cpp">
+      <Filter>ソース ファイル\シーン\ゲームメイン\ユーザーインターフェイス\操作説明</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SceneEndcredit.cpp">
+      <Filter>ソース ファイル\シーン\エンドクレジット</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SceneUi_Jump.cpp">
+      <Filter>ソース ファイル\シーン\ゲームメイン\ユーザーインターフェイス\ジャンプ回数</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gimmick_TutorialDraw.cpp">
+      <Filter>ソース ファイル\オブジェクト\プラットフォーム\ギミック\チュートリアル描写地点</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SceneUi_Tutorial.cpp">
+      <Filter>ソース ファイル\シーン\ゲームメイン\ユーザーインターフェイス\チュートリアル</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ScreenArrowLeft.cpp">
+      <Filter>ソース ファイル\オブジェクト\プラットフォーム\ギミック\画面</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ScreenArrowRight.cpp">
+      <Filter>ソース ファイル\オブジェクト\プラットフォーム\ギミック\画面</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SceneLogo.cpp">
+      <Filter>ソース ファイル\シーン\ロゴ</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\SceneLoad.h">
+      <Filter>ヘッダー ファイル\シーン\ロード</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SceneOption.h">
+      <Filter>ヘッダー ファイル\シーン\オプション</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SceneGame.h">
+      <Filter>ヘッダー ファイル\シーン\ゲームメイン</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SceneTitle.h">
+      <Filter>ヘッダー ファイル\シーン\タイトル</Filter>
+    </ClInclude>
+    <ClInclude Include="source\DataList_Option.h">
+      <Filter>ヘッダー ファイル\データリスト\オプション</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CharacterPlayer.h">
+      <Filter>ヘッダー ファイル\オブジェクト\アクタ\キャラクター\プレイヤー</Filter>
+    </ClInclude>
+    <ClInclude Include="source\DataList_Object.h">
+      <Filter>ヘッダー ファイル\データリスト\オブジェクト管理</Filter>
+    </ClInclude>
+    <ClInclude Include="source\DataList_Input.h">
+      <Filter>ヘッダー ファイル\データリスト\入力</Filter>
+    </ClInclude>
+    <ClInclude Include="source\VariableDefine.h">
+      <Filter>ヘッダー ファイル\定義</Filter>
+    </ClInclude>
+    <ClInclude Include="source\PublicInclude.h">
+      <Filter>ヘッダー ファイル\定義</Filter>
+    </ClInclude>
+    <ClInclude Include="source\InputDefine.h">
+      <Filter>ヘッダー ファイル\データリスト\入力</Filter>
+    </ClInclude>
+    <ClInclude Include="source\DataList_PlayerStatus.h">
+      <Filter>ヘッダー ファイル\データリスト\プレイヤー状態</Filter>
+    </ClInclude>
+    <ClInclude Include="source\PlayerStatusDefine.h">
+      <Filter>ヘッダー ファイル\データリスト\プレイヤー状態</Filter>
+    </ClInclude>
+    <ClInclude Include="source\StructDefine.h">
+      <Filter>ヘッダー ファイル\定義</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ConstantDefine.h">
+      <Filter>ヘッダー ファイル\定義</Filter>
+    </ClInclude>
+    <ClInclude Include="source\DataList_Model.h">
+      <Filter>ヘッダー ファイル\データリスト\3Dモデル管理</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SceneStage.h">
+      <Filter>ヘッダー ファイル\シーン\ゲームメイン\ステージ</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SceneEdit.h">
+      <Filter>ヘッダー ファイル\シーン\ゲームメイン\エディット</Filter>
+    </ClInclude>
+    <ClInclude Include="source\DataList_StageStatus.h">
+      <Filter>ヘッダー ファイル\データリスト\ステージ状態管理</Filter>
+    </ClInclude>
+    <ClInclude Include="source\StageStatusDefine.h">
+      <Filter>ヘッダー ファイル\データリスト\ステージ状態管理</Filter>
+    </ClInclude>
+    <ClInclude Include="source\EffectManualDelete.h">
+      <Filter>ヘッダー ファイル\オブジェクト\エフェクト</Filter>
+    </ClInclude>
+    <ClInclude Include="source\EffectSelfDelete.h">
+      <Filter>ヘッダー ファイル\オブジェクト\エフェクト</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Enemy_Basic.h">
+      <Filter>ヘッダー ファイル\オブジェクト\アクタ\キャラクター\エネミー</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Enemy_GoalObject.h">
+      <Filter>ヘッダー ファイル\オブジェクト\アクタ\キャラクター\エネミー\ゴールオブジェクト</Filter>
+    </ClInclude>
+    <ClInclude Include="source\DataList_Effect.h">
+      <Filter>ヘッダー ファイル\データリスト\エフェクトリソース管理</Filter>
+    </ClInclude>
+    <ClInclude Include="source\DataList_Sound.h">
+      <Filter>ヘッダー ファイル\データリスト\サウンド管理</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SoundDefine.h">
+      <Filter>ヘッダー ファイル\データリスト\サウンド管理</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Enemy_Escape.h">
+      <Filter>ヘッダー ファイル\オブジェクト\アクタ\キャラクター\エネミー\逃走</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Enemy_Missile.h">
+      <Filter>ヘッダー ファイル\オブジェクト\アクタ\キャラクター\エネミー\ミサイル</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Enemy_Normal.h">
+      <Filter>ヘッダー ファイル\オブジェクト\アクタ\キャラクター\エネミー\ノーマル</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Enemy_Explosion.h">
+      <Filter>ヘッダー ファイル\オブジェクト\アクタ\キャラクター\エネミー\自爆</Filter>
+    </ClInclude>
+    <ClInclude Include="source\EnemyDefine.h">
+      <Filter>ヘッダー ファイル\オブジェクト\アクタ\キャラクター\エネミー</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Enemy_Beam.h">
+      <Filter>ヘッダー ファイル\オブジェクト\アクタ\キャラクター\エネミー\ビーム</Filter>
+    </ClInclude>
+    <ClInclude Include="source\BulletEnemyRangeBeam.h">
+      <Filter>ヘッダー ファイル\オブジェクト\アクタ\バレット\エネミー</Filter>
+    </ClInclude>
+    <ClInclude Include="source\BulletEnemyRangeMissile.h">
+      <Filter>ヘッダー ファイル\オブジェクト\アクタ\バレット\エネミー</Filter>
+    </ClInclude>
+    <ClInclude Include="source\BulletEnemyRangeNormal.h">
+      <Filter>ヘッダー ファイル\オブジェクト\アクタ\バレット\エネミー</Filter>
+    </ClInclude>
+    <ClInclude Include="source\BulletPlayerMeleeStrong.h">
+      <Filter>ヘッダー ファイル\オブジェクト\アクタ\バレット\プレイヤー</Filter>
+    </ClInclude>
+    <ClInclude Include="source\BulletPlayerMeleeWeak.h">
+      <Filter>ヘッダー ファイル\オブジェクト\アクタ\バレット\プレイヤー</Filter>
+    </ClInclude>
+    <ClInclude Include="source\EnemyBulletDefine.h">
+      <Filter>ヘッダー ファイル\オブジェクト\アクタ\バレット\エネミー</Filter>
+    </ClInclude>
+    <ClInclude Include="source\EffectSelfDelete_PlayerFollow.h">
+      <Filter>ヘッダー ファイル\オブジェクト\エフェクト</Filter>
+    </ClInclude>
+    <ClInclude Include="source\EffectManualDelete_PlayerFollow.h">
+      <Filter>ヘッダー ファイル\オブジェクト\エフェクト</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SkySqhereBasic.h">
+      <Filter>ヘッダー ファイル\オブジェクト\スカイスフィア</Filter>
+    </ClInclude>
+    <ClInclude Include="source\PlayerMotionDefine.h">
+      <Filter>ヘッダー ファイル\データリスト\プレイヤー状態</Filter>
+    </ClInclude>
+    <ClInclude Include="source\GimmickDefine.h">
+      <Filter>ヘッダー ファイル\オブジェクト\プラットフォーム\ギミック</Filter>
+    </ClInclude>
+    <ClInclude Include="source\EffectItem_Blood.h">
+      <Filter>ヘッダー ファイル\オブジェクト\アクタ\アイテム\実体なし</Filter>
+    </ClInclude>
+    <ClInclude Include="source\DataList_GameResource.h">
+      <Filter>ヘッダー ファイル\データリスト\ゲームリソース管理</Filter>
+    </ClInclude>
+    <ClInclude Include="source\EditDefine.h">
+      <Filter>ヘッダー ファイル\データリスト\ゲームリソース管理</Filter>
+    </ClInclude>
+    <ClInclude Include="source\include\SceneEditDefine.h">
+      <Filter>ヘッダー ファイル\シーン\ゲームメイン\エディット</Filter>
+    </ClInclude>
+    <ClInclude Include="source\DataList_Image.h">
+      <Filter>ヘッダー ファイル\データリスト\画像管理</Filter>
+    </ClInclude>
+    <ClInclude Include="source\PickUpItem_ForcedJump.h">
+      <Filter>ヘッダー ファイル\オブジェクト\アクタ\アイテム\実体あり</Filter>
+    </ClInclude>
+    <ClInclude Include="source\EffectItem_BloodDefine.h">
+      <Filter>ヘッダー ファイル\オブジェクト\アクタ\アイテム\実体なし</Filter>
+    </ClInclude>
+    <ClInclude Include="source\GimmickDisappear.h">
+      <Filter>ヘッダー ファイル\オブジェクト\プラットフォーム\ギミック\消える床</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Gimmick_ForcedJump_Spawn.h">
+      <Filter>ヘッダー ファイル\オブジェクト\プラットフォーム\ギミック\強制ジャンプ</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SceneUi_Blood.h">
+      <Filter>ヘッダー ファイル\シーン\ゲームメイン\ユーザーインターフェイス\ブラッド%28ゲーム内通貨%29</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SceneUi_Combo.h">
+      <Filter>ヘッダー ファイル\シーン\ゲームメイン\ユーザーインターフェイス\コンボ</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SceneUi_Crosshairs.h">
+      <Filter>ヘッダー ファイル\シーン\ゲームメイン\ユーザーインターフェイス\クロスヘア</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SceneUi_Debug.h">
+      <Filter>ヘッダー ファイル\シーン\ゲームメイン\ユーザーインターフェイス\デバッグ</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SceneUi_Edit.h">
+      <Filter>ヘッダー ファイル\シーン\ゲームメイン\ユーザーインターフェイス\エディット%28描写%29</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SceneUi_Hp.h">
+      <Filter>ヘッダー ファイル\シーン\ゲームメイン\ユーザーインターフェイス\HP</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SceneUi_Kunai.h">
+      <Filter>ヘッダー ファイル\シーン\ゲームメイン\ユーザーインターフェイス\クナイ関連</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SceneResult.h">
+      <Filter>ヘッダー ファイル\シーン\ゲームメイン\リザルト</Filter>
+    </ClInclude>
+    <ClInclude Include="source\PlayerBulletDefine.h">
+      <Filter>ヘッダー ファイル\オブジェクト\アクタ\バレット\プレイヤー</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SceneGameOver.h">
+      <Filter>ヘッダー ファイル\シーン\ゲームメイン\ゲームオーバー</Filter>
+    </ClInclude>
+    <ClInclude Include="source\EffectManualDelete_PlayerFollow_Frame.h">
+      <Filter>ヘッダー ファイル\オブジェクト\エフェクト</Filter>
+    </ClInclude>
+    <ClInclude Include="source\EffectSelfDelete_PlayerFollow_Frame.h">
+      <Filter>ヘッダー ファイル\オブジェクト\エフェクト</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ScreenEffect_Damage.h">
+      <Filter>ヘッダー ファイル\画面エフェクト\被ダメージ</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SceneAddGameSetup.h">
+      <Filter>ヘッダー ファイル\シーン\セットアップ</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Screen.h">
+      <Filter>ヘッダー ファイル\オブジェクト\プラットフォーム\ギミック\画面</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SceneStageClear.h">
+      <Filter>ヘッダー ファイル\シーン\ゲームメイン\ステージクリア</Filter>
+    </ClInclude>
+    <ClInclude Include="source\FallFog.h">
+      <Filter>ヘッダー ファイル\オブジェクト\プラットフォーム\霧%28ビルボード%29</Filter>
+    </ClInclude>
+    <ClInclude Include="source\resource.h">
+      <Filter>リソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Gimmick_FallJudgment.h">
+      <Filter>ヘッダー ファイル\オブジェクト\プラットフォーム\ギミック\落下判定</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ScenePause.h">
+      <Filter>ヘッダー ファイル\シーン\ゲームメイン\一時停止</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ScenePauseDefine.h">
+      <Filter>ヘッダー ファイル\シーン\ゲームメイン\一時停止</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SceneAddTitleSetup.h">
+      <Filter>ヘッダー ファイル\シーン\セットアップ</Filter>
+    </ClInclude>
+    <ClInclude Include="source\OptionDefine.h">
+      <Filter>ヘッダー ファイル\データリスト\オプション</Filter>
+    </ClInclude>
+    <ClInclude Include="source\LargeScreen.h">
+      <Filter>ヘッダー ファイル\オブジェクト\プラットフォーム\ギミック\画面</Filter>
+    </ClInclude>
+    <ClInclude Include="source\EnemySpawnPoint_Normal.h">
+      <Filter>ヘッダー ファイル\オブジェクト\プラットフォーム\ギミック\スポーンポイント\ノーマル</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SpawnPoint_Base.h">
+      <Filter>ヘッダー ファイル\オブジェクト\プラットフォーム\ギミック\スポーンポイント</Filter>
+    </ClInclude>
+    <ClInclude Include="source\EnemySpawnPoint_Beam.h">
+      <Filter>ヘッダー ファイル\オブジェクト\プラットフォーム\ギミック\スポーンポイント\ビーム</Filter>
+    </ClInclude>
+    <ClInclude Include="source\EnemySpawnPoint_Missile.h">
+      <Filter>ヘッダー ファイル\オブジェクト\プラットフォーム\ギミック\スポーンポイント\ミサイル</Filter>
+    </ClInclude>
+    <ClInclude Include="source\EnemySpawnPoint_Explosion.h">
+      <Filter>ヘッダー ファイル\オブジェクト\プラットフォーム\ギミック\スポーンポイント\自爆</Filter>
+    </ClInclude>
+    <ClInclude Include="source\EnemySpawnPoint_Escape.h">
+      <Filter>ヘッダー ファイル\オブジェクト\プラットフォーム\ギミック\スポーンポイント\逃走</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SceneOptionDefine.h">
+      <Filter>ヘッダー ファイル\シーン\オプション</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Gimmick_MoveFloor.h">
+      <Filter>ヘッダー ファイル\オブジェクト\プラットフォーム\ギミック\移動床</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SceneUi_Debug_StageJump.h">
+      <Filter>ヘッダー ファイル\シーン\ゲームメイン\ユーザーインターフェイス\デバッグ\ステージジャンプ</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ScreenEffect_SlowMotion.h">
+      <Filter>ヘッダー ファイル\画面エフェクト\スローモーション</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SceneResultDefine.h">
+      <Filter>ヘッダー ファイル\シーン\ゲームメイン\リザルト</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Enemy_Normal_Air.h">
+      <Filter>ヘッダー ファイル\オブジェクト\アクタ\キャラクター\エネミー\ノーマル</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Enemy_Missile_Air.h">
+      <Filter>ヘッダー ファイル\オブジェクト\アクタ\キャラクター\エネミー\ミサイル</Filter>
+    </ClInclude>
+    <ClInclude Include="source\BulletPlayerKunaiExplosion.h">
+      <Filter>ヘッダー ファイル\オブジェクト\アクタ\バレット\プレイヤー</Filter>
+    </ClInclude>
+    <ClInclude Include="source\BulletPlayerKunaiWarp.h">
+      <Filter>ヘッダー ファイル\オブジェクト\アクタ\バレット\プレイヤー</Filter>
+    </ClInclude>
+    <ClInclude Include="source\BulletPlayerKunai.h">
+      <Filter>ヘッダー ファイル\オブジェクト\アクタ\バレット\プレイヤー</Filter>
+    </ClInclude>
+    <ClInclude Include="source\PickUpItem_Blood.h">
+      <Filter>ヘッダー ファイル\オブジェクト\アクタ\アイテム\実体あり</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SpawnPoint_Blood_PickupItem.h">
+      <Filter>ヘッダー ファイル\オブジェクト\プラットフォーム\ギミック\スポーンポイント\ブラッド%28アイテム%29</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Gimmick_CheckPoint.h">
+      <Filter>ヘッダー ファイル\オブジェクト\プラットフォーム\ギミック\中間ポイント</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SceneUi_Debug_StatusSetup.h">
+      <Filter>ヘッダー ファイル\シーン\ゲームメイン\ユーザーインターフェイス\デバッグ\ステータス調整</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ScreenEffect_Base.h">
+      <Filter>ヘッダー ファイル\画面エフェクト</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ScreenEffect_ConcentrationLine.h">
+      <Filter>ヘッダー ファイル\画面エフェクト\集中線</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Enemy_Fixed_Turret.h">
+      <Filter>ヘッダー ファイル\オブジェクト\アクタ\キャラクター\エネミー\固定</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Enemy_Fixed.h">
+      <Filter>ヘッダー ファイル\オブジェクト\アクタ\キャラクター\エネミー\固定</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SceneConversation.h">
+      <Filter>ヘッダー ファイル\シーン\会話シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="source\GimmickDisappearSpawnPoint.h">
+      <Filter>ヘッダー ファイル\オブジェクト\プラットフォーム\ギミック\スポーンポイント\消える床</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Scene_Title_Player.h">
+      <Filter>ヘッダー ファイル\オブジェクト\プラットフォーム\ギミック\タイトルプレイヤー</Filter>
+    </ClInclude>
+    <ClInclude Include="source\PickUpItem_Kunai.h">
+      <Filter>ヘッダー ファイル\オブジェクト\アクタ\アイテム\実体あり</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SpawnPoint_Kunai_PickupItem.h">
+      <Filter>ヘッダー ファイル\オブジェクト\プラットフォーム\ギミック\スポーンポイント\クナイ%28アイテム%29</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SceneUi_Time.h">
+      <Filter>ヘッダー ファイル\シーン\ゲームメイン\ユーザーインターフェイス\時間</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SceneUi_OperationInstructions.h">
+      <Filter>ヘッダー ファイル\シーン\ゲームメイン\ユーザーインターフェイス\操作説明</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SceneEndcredit.h">
+      <Filter>ヘッダー ファイル\シーン\エンドクレジット</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SceneUi_Jump.h">
+      <Filter>ヘッダー ファイル\シーン\ゲームメイン\ユーザーインターフェイス\ジャンプ回数</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Gimmick_TutorialDraw.h">
+      <Filter>ヘッダー ファイル\オブジェクト\プラットフォーム\ギミック\チュートリアル描写地点</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SceneUi_Tutorial.h">
+      <Filter>ヘッダー ファイル\シーン\ゲームメイン\ユーザーインターフェイス\チュートリアル</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ScreenArrowLeft.h">
+      <Filter>ヘッダー ファイル\オブジェクト\プラットフォーム\ギミック\画面</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ScreenArrowRight.h">
+      <Filter>ヘッダー ファイル\オブジェクト\プラットフォーム\ギミック\画面</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SceneLogo.h">
+      <Filter>ヘッダー ファイル\シーン\ロゴ</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

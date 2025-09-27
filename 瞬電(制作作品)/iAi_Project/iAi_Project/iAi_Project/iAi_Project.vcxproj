@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{e7db8d09-21ec-4173-b473-cc0bd938dfd5}</ProjectGuid>
+    <RootNamespace>iAiProject</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\(Configuration)\</IntDir>
+    <IncludePath>..\..\AppFrame\source;$(SolutionDir)..\DxLib;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)$(Platform)\$(Configuration);$(SolutionDir)..\DxLib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\(Configuration)\</IntDir>
+    <IncludePath>..\..\AppFrame\source;$(SolutionDir)..\DxLib;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)$(Platform)\$(Configuration);$(SolutionDir)..\DxLib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IntDir>$(Platform)\(Configuration)\</IntDir>
+    <IncludePath>..\..\AppFrame\source;$(SolutionDir)..\DxLib;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)$(Platform)\$(Configuration);$(SolutionDir)..\DxLib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IntDir>$(Platform)\(Configuration)\</IntDir>
+    <IncludePath>..\..\AppFrame\source;$(SolutionDir)..\DxLib;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)$(Platform)\$(Configuration);$(SolutionDir)..\DxLib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <AdditionalIncludeDirectories>source/include/</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalIncludeDirectories>source/include/</AdditionalIncludeDirectories>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <AdditionalIncludeDirectories>source/include/</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalIncludeDirectories>source/include/</AdditionalIncludeDirectories>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="source\AppFunctionDefine.cpp" />
+    <ClCompile Include="source\BulletEnemyRangeBeam.cpp" />
+    <ClCompile Include="source\BulletEnemyRangeMissile.cpp" />
+    <ClCompile Include="source\BulletEnemyRangeNormal.cpp" />
+    <ClCompile Include="source\BulletPlayerKunai.cpp" />
+    <ClCompile Include="source\BulletPlayerKunaiExplosion.cpp" />
+    <ClCompile Include="source\BulletPlayerKunaiWarp.cpp" />
+    <ClCompile Include="source\BulletPlayerMeleeStrong.cpp" />
+    <ClCompile Include="source\BulletPlayerMeleeWeak.cpp" />
+    <ClCompile Include="source\CharacterPlayer.cpp" />
+    <ClCompile Include="source\CharacterPlayerAttack.cpp" />
+    <ClCompile Include="source\CharacterPlayerDraw.cpp" />
+    <ClCompile Include="source\CharacterPlayerMotion.cpp" />
+    <ClCompile Include="source\CharacterPlayerMove.cpp" />
+    <ClCompile Include="source\DataList_Effect.cpp" />
+    <ClCompile Include="source\DataList_GameResource.cpp" />
+    <ClCompile Include="source\DataList_Option.cpp" />
+    <ClCompile Include="source\DataList_StageStatus.cpp" />
+    <ClCompile Include="source\DataList_Image.cpp" />
+    <ClCompile Include="source\DataList_Input.cpp" />
+    <ClCompile Include="source\DataList_Model.cpp" />
+    <ClCompile Include="source\DataList_Object.cpp" />
+    <ClCompile Include="source\DataList_PlayerStatus.cpp" />
+    <ClCompile Include="source\DataList_Sound.cpp" />
+    <ClCompile Include="source\EffectItem_Blood.cpp" />
+    <ClCompile Include="source\EffectManualDelete.cpp" />
+    <ClCompile Include="source\EffectManualDelete_PlayerFollow.cpp" />
+    <ClCompile Include="source\EffectManualDelete_PlayerFollow_Frame.cpp" />
+    <ClCompile Include="source\EffectSelfDelete.cpp" />
+    <ClCompile Include="source\EffectSelfDelete_PlayerFollow.cpp" />
+    <ClCompile Include="source\EffectSelfDelete_PlayerFollow_Frame.cpp" />
+    <ClCompile Include="source\Enemy_Basic.cpp" />
+    <ClCompile Include="source\Enemy_Beam.cpp" />
+    <ClCompile Include="source\Enemy_Escape.cpp" />
+    <ClCompile Include="source\Enemy_Fixed.cpp" />
+    <ClCompile Include="source\Enemy_Fixed_Turret.cpp" />
+    <ClCompile Include="source\Enemy_GoalObject.cpp" />
+    <ClCompile Include="source\Enemy_Missile.cpp" />
+    <ClCompile Include="source\Enemy_Missile_Air.cpp" />
+    <ClCompile Include="source\Enemy_Normal.cpp" />
+    <ClCompile Include="source\EnemySpawnPoint_Beam.cpp" />
+    <ClCompile Include="source\EnemySpawnPoint_Escape.cpp" />
+    <ClCompile Include="source\EnemySpawnPoint_Explosion.cpp" />
+    <ClCompile Include="source\EnemySpawnPoint_Missile.cpp" />
+    <ClCompile Include="source\Enemy_Explosion.cpp" />
+    <ClCompile Include="source\Enemy_Normal_Air.cpp" />
+    <ClCompile Include="source\FallFog.cpp" />
+    <ClCompile Include="source\GimmickDisappear.cpp" />
+    <ClCompile Include="source\GimmickDisappearSpawnPoint.cpp" />
+    <ClCompile Include="source\Gimmick_CheckPoint.cpp" />
+    <ClCompile Include="source\Gimmick_FallJudgment.cpp" />
+    <ClCompile Include="source\Gimmick_ForcedJump_Spawn.cpp" />
+    <ClCompile Include="source\Gimmick_MoveFloor.cpp" />
+    <ClCompile Include="source\Gimmick_TutorialDraw.cpp" />
+    <ClCompile Include="source\LargeScreen.cpp" />
+    <ClCompile Include="source\PickUpItem_Blood.cpp" />
+    <ClCompile Include="source\PickUpItem_ForcedJump.cpp" />
+    <ClCompile Include="source\PickUpItem_Kunai.cpp" />
+    <ClCompile Include="source\SceneAddTitleSetup.cpp" />
+    <ClCompile Include="source\SceneConversation.cpp" />
+    <ClCompile Include="source\SceneEdit.cpp" />
+    <ClCompile Include="source\SceneEdit_Draw.cpp" />
+    <ClCompile Include="source\SceneAddGameSetup.cpp" />
+    <ClCompile Include="source\SceneEndcredit.cpp" />
+    <ClCompile Include="source\SceneLogo.cpp" />
+    <ClCompile Include="source\ScenePause.cpp" />
+    <ClCompile Include="source\SceneStageClear.cpp" />
+    <ClCompile Include="source\SceneUi_Debug_StageJump.cpp" />
+    <ClCompile Include="source\SceneUi_Debug_StatusSetup.cpp" />
+    <ClCompile Include="source\SceneUi_Jump.cpp" />
+    <ClCompile Include="source\SceneUi_OperationInstructions.cpp" />
+    <ClCompile Include="source\SceneUi_Time.cpp" />
+    <ClCompile Include="source\SceneUi_Tutorial.cpp" />
+    <ClCompile Include="source\Scene_Title_Player.cpp" />
+    <ClCompile Include="source\Screen.cpp" />
+    <ClCompile Include="source\ScreenArrowLeft.cpp" />
+    <ClCompile Include="source\ScreenArrowRight.cpp" />
+    <ClCompile Include="source\ScreenEffect_ConcentrationLine.cpp" />
+    <ClCompile Include="source\ScreenEffect_Damage.cpp" />
+    <ClCompile Include="source\SceneGame.cpp" />
+    <ClCompile Include="source\SceneGameOver.cpp" />
+    <ClCompile Include="source\SceneLoad.cpp" />
+    <ClCompile Include="source\SceneOption.cpp" />
+    <ClCompile Include="source\SceneResult.cpp" />
+    <ClCompile Include="source\SceneStage_Camera.cpp" />
+    <ClCompile Include="source\SceneStage_Draw.cpp" />
+    <ClCompile Include="source\SceneTitle.cpp" />
+    <ClCompile Include="source\SceneStage.cpp" />
+    <ClCompile Include="source\SceneStage_MapLoad.cpp" />
+    <ClCompile Include="source\SceneUi_Blood.cpp" />
+    <ClCompile Include="source\SceneUi_Combo.cpp" />
+    <ClCompile Include="source\SceneUi_Crosshairs.cpp" />
+    <ClCompile Include="source\SceneUi_Debug.cpp" />
+    <ClCompile Include="source\SceneUi_Edit.cpp" />
+    <ClCompile Include="source\SceneUi_Hp.cpp" />
+    <ClCompile Include="source\SceneUi_Kunai.cpp" />
+    <ClCompile Include="source\ScreenEffect_Base.cpp" />
+    <ClCompile Include="source\ScreenEffect_SlowMotion.cpp" />
+    <ClCompile Include="source\SkySqhereBasic.cpp" />
+    <ClCompile Include="source\SpawnPoint_Base.cpp" />
+    <ClCompile Include="source\EnemySpawnPoint_Normal.cpp" />
+    <ClCompile Include="source\SpawnPoint_Blood_PickupItem.cpp" />
+    <ClCompile Include="source\SpawnPoint_Kunai_PickupItem.cpp" />
+    <ClCompile Include="source\VariableDefine.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\BulletEnemyRangeBeam.h" />
+    <ClInclude Include="source\BulletEnemyRangeMissile.h" />
+    <ClInclude Include="source\BulletEnemyRangeNormal.h" />
+    <ClInclude Include="source\BulletPlayerKunai.h" />
+    <ClInclude Include="source\BulletPlayerKunaiExplosion.h" />
+    <ClInclude Include="source\BulletPlayerKunaiWarp.h" />
+    <ClInclude Include="source\BulletPlayerMeleeStrong.h" />
+    <ClInclude Include="source\BulletPlayerMeleeWeak.h" />
+    <ClInclude Include="source\CharacterPlayer.h" />
+    <ClInclude Include="source\ConstantDefine.h" />
+    <ClInclude Include="source\DataList_Effect.h" />
+    <ClInclude Include="source\DataList_GameResource.h" />
+    <ClInclude Include="source\DataList_StageStatus.h" />
+    <ClInclude Include="source\DataList_Image.h" />
+    <ClInclude Include="source\DataList_Model.h" />
+    <ClInclude Include="source\DataList_PlayerStatus.h" />
+    <ClInclude Include="source\DataList_Sound.h" />
+    <ClInclude Include="source\EditDefine.h" />
+    <ClInclude Include="source\EffectItem_Blood.h" />
+    <ClInclude Include="source\EffectItem_BloodDefine.h" />
+    <ClInclude Include="source\EffectManualDelete.h" />
+    <ClInclude Include="source\EffectManualDelete_PlayerFollow.h" />
+    <ClInclude Include="source\EffectManualDelete_PlayerFollow_Frame.h" />
+    <ClInclude Include="source\EffectSelfDelete.h" />
+    <ClInclude Include="source\EffectSelfDelete_PlayerFollow.h" />
+    <ClInclude Include="source\EffectSelfDelete_PlayerFollow_Frame.h" />
+    <ClInclude Include="source\Enemy_Basic.h" />
+    <ClInclude Include="source\Enemy_Beam.h" />
+    <ClInclude Include="source\EnemyBulletDefine.h" />
+    <ClInclude Include="source\EnemyDefine.h" />
+    <ClInclude Include="source\Enemy_Escape.h" />
+    <ClInclude Include="source\Enemy_Fixed.h" />
+    <ClInclude Include="source\Enemy_Fixed_Turret.h" />
+    <ClInclude Include="source\Enemy_GoalObject.h" />
+    <ClInclude Include="source\Enemy_Missile.h" />
+    <ClInclude Include="source\Enemy_Missile_Air.h" />
+    <ClInclude Include="source\Enemy_Normal.h" />
+    <ClInclude Include="source\EnemySpawnPoint_Beam.h" />
+    <ClInclude Include="source\EnemySpawnPoint_Escape.h" />
+    <ClInclude Include="source\EnemySpawnPoint_Explosion.h" />
+    <ClInclude Include="source\EnemySpawnPoint_Missile.h" />
+    <ClInclude Include="source\Enemy_Explosion.h" />
+    <ClInclude Include="source\Enemy_Normal_Air.h" />
+    <ClInclude Include="source\FallFog.h" />
+    <ClInclude Include="source\GimmickDisappearSpawnPoint.h" />
+    <ClInclude Include="source\Gimmick_CheckPoint.h" />
+    <ClInclude Include="source\Gimmick_FallJudgment.h" />
+    <ClInclude Include="source\Gimmick_MoveFloor.h" />
+    <ClInclude Include="source\Gimmick_TutorialDraw.h" />
+    <ClInclude Include="source\LargeScreen.h" />
+    <ClInclude Include="source\OptionDefine.h" />
+    <ClInclude Include="source\PickUpItem_Blood.h" />
+    <ClInclude Include="source\resource.h" />
+    <ClInclude Include="source\SceneAddGameSetup.h" />
+    <ClInclude Include="source\SceneAddTitleSetup.h" />
+    <ClInclude Include="source\SceneConversation.h" />
+    <ClInclude Include="source\SceneEndcredit.h" />
+    <ClInclude Include="source\SceneLogo.h" />
+    <ClInclude Include="source\SceneOptionDefine.h" />
+    <ClInclude Include="source\ScenePause.h" />
+    <ClInclude Include="source\ScenePauseDefine.h" />
+    <ClInclude Include="source\SceneResultDefine.h" />
+    <ClInclude Include="source\SceneStageClear.h" />
+    <ClInclude Include="source\SceneUi_Debug_StageJump.h" />
+    <ClInclude Include="source\SceneUi_Debug_StatusSetup.h" />
+    <ClInclude Include="source\SceneUi_Jump.h" />
+    <ClInclude Include="source\SceneUi_OperationInstructions.h" />
+    <ClInclude Include="source\SceneUi_Time.h" />
+    <ClInclude Include="source\SceneUi_Tutorial.h" />
+    <ClInclude Include="source\Scene_Title_Player.h" />
+    <ClInclude Include="source\Screen.h" />
+    <ClInclude Include="source\ScreenArrowLeft.h" />
+    <ClInclude Include="source\ScreenArrowRight.h" />
+    <ClInclude Include="source\ScreenEffect_ConcentrationLine.h" />
+    <ClInclude Include="source\SpawnPoint_Base.h" />
+    <ClInclude Include="source\EnemySpawnPoint_Normal.h" />
+    <ClInclude Include="source\ScreenEffect_SlowMotion.h" />
+    <ClInclude Include="source\SpawnPoint_Blood_PickupItem.h" />
+    <ClInclude Include="source\SpawnPoint_Kunai_PickupItem.h" />
+    <ClInclude Include="source\StageStatusDefine.h" />
+    <ClInclude Include="source\GimmickDefine.h" />
+    <ClInclude Include="source\GimmickDisappear.h" />
+    <ClInclude Include="source\Gimmick_ForcedJump_Spawn.h" />
+    <ClInclude Include="source\include\SceneEditDefine.h" />
+    <ClInclude Include="source\InputDefine.h" />
+    <ClInclude Include="source\PickUpItem_ForcedJump.h" />
+    <ClInclude Include="source\PlayerBulletDefine.h" />
+    <ClInclude Include="source\PlayerMotionDefine.h" />
+    <ClInclude Include="source\PlayerStatusDefine.h" />
+    <ClInclude Include="source\PublicInclude.h" />
+    <ClInclude Include="source\SceneEdit.h" />
+    <ClInclude Include="source\ScreenEffect_Damage.h" />
+    <ClInclude Include="source\SceneGameOver.h" />
+    <ClInclude Include="source\SceneResult.h" />
+    <ClInclude Include="source\SceneStage.h" />
+    <ClInclude Include="source\SceneUi_Blood.h" />
+    <ClInclude Include="source\SceneUi_Combo.h" />
+    <ClInclude Include="source\SceneUi_Crosshairs.h" />
+    <ClInclude Include="source\SceneUi_Debug.h" />
+    <ClInclude Include="source\SceneUi_Edit.h" />
+    <ClInclude Include="source\SceneUi_Hp.h" />
+    <ClInclude Include="source\SceneUi_Kunai.h" />
+    <ClInclude Include="source\ScreenEffect_Base.h" />
+    <ClInclude Include="source\SkySqhereBasic.h" />
+    <ClInclude Include="source\SoundDefine.h" />
+    <ClInclude Include="source\StructDefine.h" />
+    <ClInclude Include="source\VariableDefine.h" />
+    <ClInclude Include="source\DataList_Input.h" />
+    <ClInclude Include="source\DataList_Object.h" />
+    <ClInclude Include="source\DataList_Option.h" />
+    <ClInclude Include="source\SceneGame.h" />
+    <ClInclude Include="source\SceneLoad.h" />
+    <ClInclude Include="source\SceneOption.h" />
+    <ClInclude Include="source\SceneTitle.h" />
+    <ClInclude Include="source\PickUpItem_Kunai.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
