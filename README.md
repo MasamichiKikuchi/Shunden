@@ -2,18 +2,13 @@
 瞬電(しゅんでん)
 --------------------------------
 ■作品概要説明
- コンセプトは「神速の居合で斬り捨てろ」
-
+コンセプトは「神速の居合で斬り捨てろ」
 近未来の東京を舞台に、暴走したアンドロイドを破壊するため
 アンドロイドの忍者少女が夜のビル群を跳びまわる。
-
 居合とクナイを駆使し、敵を素早く斬り捨てろ！
-
 敵を連続で倒すと「コンボ」が加算。敵から得られる報酬が増加する。
-
 ステージをクリアするごとに主人公をエディット可能！
 敵を倒して入手したBLOOD（ゲーム内通貨）で主人公を強化せよ！
-
 忍者×居合３Dアクション！！
 --------------------------------
 ■ジャンル
@@ -57,6 +52,43 @@ Releasesページより実行ファイルをダウンロード
 ■終了方法
  ホーム画面から「ゲーム終了」を選択、もしくはalt+F4で終了
 --------------------------------
-■プロジェクト構成
+■プロジェクト構成（一部抜粋）
+プロジェクトデータフォルダ
+  ❙
+  ┗AppFrameフォルダ（フレームワークデータ）
+  ❙ ┗sourceフォルダ（スクリプトデータ　※フレームワーク部分）
+  ❙ ┗AppFrame.sln（Visual Studioソリューションファイル　※フレームワーク部分のみ）
+  ❙
+  ┗DxLibフォルダ（使用ライブラリデータ）
+  ❙
+  ┗iAi_Projectフォルダ
+　  ┗iAi_Projectフォルダ
+　  ❙ ┗resourceフォルダ（ビジュアルリソースデータ）
+　  ❙ ┗sourceフォルダ（スクリプトデータ　※プロジェクト部分）
+　  ┗iAi_Project.sln（Visual Studioソリューションファイル　※プロジェクト全体）
+ 
 --------------------------------
-
+■担当ファイル
+主にプレイヤーキャラクターの挙動（モーション・描画以外）や当たり判定、カメラワークの一部を担当しました。
+BulletPlayerKunai.cpp,
+BulletPlayerKunai.h,
+BulletPlayerKunaiExplosion.cpp,
+BulletPlayerKunaiExplosion.h,
+BulletPlayerKunaiWarp.cpp,
+BulletPlayerKunaiWarp.h,
+BulletPlayerMeleeWeak.cpp,
+BulletPlayerMeleeWeak.h,
+CharacterPlayer.cpp,CharacterPlayer.h,
+CharacterPlayerAttack.cpp,
+CharacterPlayerMove.cpp,
+DataList_PlayerStatus.cpp, DataList_PlayerStatus.h,
+EffectManualDelete_PlayerFollow_Frame.cpp,
+EffectManualDelete_PlayerFollow_Frame.h,
+EffectSelfDelete_PlayerFollow_Frame.cpp,
+EffectSelfDelete_PlayerFollow_Frame.h,
+PlayerStatusDefine.h,
+SceneStage_Camera.cpp,
+SceneUi_Crosshairs.cpp,
+--------------------------------
+■作品紹介
+[瞬電_作品紹介.pptx](https://github.com/user-attachments/files/22596770/_.pptx)
