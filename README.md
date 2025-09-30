@@ -42,7 +42,7 @@
 Windows 10またはWindows 11
 --------------------------------
 ■起動方法  
-Releasesページより実行ファイルをダウンロード  
+Releasesページhttps://github.com/MasamichiKikuchi/Shunden/releasesより実行ファイルをダウンロード  
 →Syunden.ZIPを解凍  
 →iAi_Project.exeを実行  
 ※操作説明は添付資料を参照  
