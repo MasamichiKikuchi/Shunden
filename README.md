@@ -52,19 +52,18 @@ Releasesページより実行ファイルをダウンロード
 --------------------------------
 ■プロジェクト構成（一部抜粋）  
 プロジェクトデータフォルダ  
-  ❙  
-  ┗AppFrameフォルダ（フレームワークデータ）  
-  ❙ ┗sourceフォルダ（スクリプトデータ　※フレームワーク部分）  
-  ❙ ┗AppFrame.sln（Visual Studioソリューションファイル　※フレームワーク部分のみ）  
-  ❙  
-  ┗DxLibフォルダ（使用ライブラリデータ）  
-  ❙  
-  ┗iAi_Projectフォルダ  
-　  ┗iAi_Projectフォルダ  
-　  ❙ ┗resourceフォルダ（ビジュアルリソースデータ）  
-　  ❙ ┗sourceフォルダ（スクリプトデータ　※プロジェクト部分）  
-　  ┗iAi_Project.sln（Visual Studioソリューションファイル　※プロジェクト全体）  
- 
+❙  
+┗AppFrameフォルダ（フレームワークデータ）  
+❙ ┗sourceフォルダ（スクリプトデータ　※フレームワーク部分）  
+❙ ┗AppFrame.sln（Visual Studioソリューションファイル　※フレームワーク部分のみ）  
+❙  
+┗DxLibフォルダ（使用ライブラリデータ）  
+❙  
+┗iAi_Projectフォルダ  
+❙ ┗iAi_Projectフォルダ  
+❙  ┗resourceフォルダ（ビジュアルリソースデータ）  
+❙  ┗sourceフォルダ（スクリプトデータ　※プロジェクト部分）  
+┗iAi_Project.sln（Visual Studioソリューションファイル　※プロジェクト全体）  
 --------------------------------
 ■担当ファイル  
 主にプレイヤーキャラクターの挙動（モーション・描画以外）や当たり判定、カメラワークの一部を担当しました。  
@@ -88,3 +87,4 @@ EffectSelfDelete_PlayerFollow_Frame.h,
 PlayerStatusDefine.h,  
 SceneStage_Camera.cpp,  
 SceneUi_Crosshairs.cpp,  
+--------------------------------
